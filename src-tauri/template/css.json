@@ -1,0 +1,109 @@
+[
+  {
+    "name": "Flex Layout",
+    "code": "display: flex;\n",
+    "list": [
+      {
+        "name": "j flex-start",
+        "code": "justify-content: flex-start;"
+      },
+      {
+        "name": "j flex-end",
+        "code": "justify-content: flex-end;"
+      },
+      {
+        "name": "j center",
+        "code": "justify-content: center;"
+      },
+      {
+        "name": "j space-between",
+        "code": "justify-content: space-between;"
+      },
+      {
+        "name": "j space-around",
+        "code": "justify-content: space-around;"
+      },
+      {
+        "name": "j space-evenly",
+        "code": "justify-content: space-evenly;"
+      },
+      {
+        "name": "a flex-start",
+        "code": "align-items: flex-start;"
+      },
+      {
+        "name": "a flex-end",
+        "code": "align-items: flex-end;"
+      },
+      {
+        "name": "a center",
+        "code": "align-items: center;"
+      }
+    ]
+  },
+  {
+    "name": "Box Shadow",
+    "code": "",
+    "list": [
+      {
+        "name": "light",
+        "code": "box-shadow:0 3px 10px 0 rgba(51, 51, 51, .25);"
+      },
+      {
+        "name": "dark",
+        "code": "box-shadow: 0 1px 7px 0 rgba(0, 0, 0, 0.4);"
+      }
+    ]
+  },
+  {
+    "name": "Font Family",
+    "code": "",
+    "list": [
+      {
+        "name": "t serif",
+        "code": "font-family: \"Times New Roman\", Times, serif;"
+      },
+      {
+        "name": "h sans-serif",
+        "code": "font-family: Arial, Helvetica, sans-serif;"
+      },
+      {
+        "name": "monospace",
+        "code": "font-family: \"Lucida Console\", \"Courier New\", monospace;"
+      }
+    ]
+  },
+  {
+    "name": "Web Font",
+    "code": "",
+    "list": [
+      {
+        "name": "font face",
+        "code": "@font-face { \nfont-family: myFirstFont;\nsrc: url(sansation_light.woff);\n}\ndiv {\nfont-family: myFirstFont;\n}"
+      }
+    ]
+  },
+  {
+    "name": "Linear Gradient",
+    "code": "",
+    "list": [
+      {
+        "name": "example",
+        "code": "background-image: linear-gradient(direction, color-stop1, color-stop2, ...);"
+      },
+      {
+        "name": "red-yellow",
+        "code": "background-image: linear-gradient(red, yellow);"
+      },
+      {
+        "name": "r red-yellow",
+        "code": "background-image: linear-gradient(to right, red , yellow);"
+      },
+      {
+        "name": "br red-yellow",
+        "code": "background-image: linear-gradient(to bottom right, red, yellow);"
+      }
+
+    ]
+  }
+]
